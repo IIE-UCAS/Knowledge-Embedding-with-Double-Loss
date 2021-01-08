@@ -84,7 +84,7 @@ if __name__=='__main__':
         )
 
     # train the model
-    trainer = Trainer(model=model, data_loader=train_dataloader, train_times=args.times, alpha=args.lr, use_gpu=True, opt_method='adam')
+    trainer = Trainer(model=model, data_loader=train_dataloader, train_times=args.times, alpha=args.lr, use_gpu=True)
     trainer.run()
     transd.save_checkpoint('./checkpoint/transd'+args.exp+'.ckpt')
 
