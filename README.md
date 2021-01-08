@@ -10,7 +10,9 @@
 ## Training
 - Training in OpenKE-DL
 
+```
 cd OpenKE-DL
+```
 
 Running the following to train:
 
@@ -61,7 +63,9 @@ python train_complex_softmax.py --mode SS --in_path FB15K/ --exp {Your experimen
 
 Running the following to train:
 
+```
 cd ProjE-DL
+```
 
 ProjE-SS:
 ```
