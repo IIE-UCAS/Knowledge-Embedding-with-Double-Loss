@@ -1,5 +1,5 @@
 # Knowledge-Embedding-with-Double-Loss
-##### Introduction
+## Introduction
 - OpenKE-DL
   + TransE
   + TransE-RS
@@ -14,4 +14,9 @@
   + Complex-SS
 - ProjE-DL
   + ProjE-SS
+## Training
+- Training in OpenKE-DL
+cd OpenKE-DL
+Running the following to train transE-SS
+
  
