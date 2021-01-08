@@ -34,7 +34,7 @@ Because some corrupted triplets may be in the training set and validation set. I
 
 2. Clone the KE-DL branch:
 
-	$ git clone 
+	$ git clone https://github.com/IIE-UCAS/Knowledge-Embedding-with-Double-Loss.git
 	
 	$ cd OpenKE-DL
 	
