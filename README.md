@@ -56,6 +56,9 @@ python train_complex_softmax.py --mode SS --in_path WN18/ --exp {Your experiment
 ```
 python train_complex_softmax.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 0.9 --u2 0.7 --lam 1.0 --lr 0.0001 --times 1000 --batch_szie 960 --dim 100 --gpu 0
 ```
+
+Running the following to train:
+
 cd ProjE-DL
 
 ProjE-SS:
