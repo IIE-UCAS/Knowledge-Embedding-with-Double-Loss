@@ -18,10 +18,10 @@ Running the following to train:
 
 TransE-SS:
 ```
-python train_transe.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 4.0 --u2 8.0 --lam 3.0 --lr 0.01 --times 3000 --batch_szie 1200 --dim 100 
+python train_transe.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 6.0 --u2 8.0 --lam 3.0 --lr 0.01 --times 3000 --batch_szie 1200 --dim 100 
 ```
 ```
-python train_transe.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 8.0 --u2 9.0 --lam 2.0 --lr 0.001 --times 3000 --batch_szie 960 --dim 100 
+python train_transe.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 6.0 --u2 8.0 --lam 2.0 --lr 0.001 --times 3000 --batch_szie 960 --dim 100 
 ```
 Note: u1 is threshold of positive examples, u2 is the threshold of negative examples, --in_path is the path of dataset, mode can be {'MR', 'RS', 'SS'}
 
@@ -37,10 +37,10 @@ python train_transd.py --mode SS --in_path FB15K/ --exp {Your experiment name} -
 
 TransH-SS:
 ```
-python train_transh.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 4.0 --u2 8.0 --lam 3.0 --lr 0.01 --times 3000 --batch_szie 1200 --dim 100 --gpu 0
+python train_transh.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 3.0 --u2 7.0 --lam 3.0 --lr 0.01 --times 3000 --batch_szie 1200 --dim 100 --gpu 0
 ```
 ```
-python train_transh.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 8.0 --u2 9.0 --lam 2.0 --lr 0.001 --times 3000 --batch_szie 960 --dim 100 --gpu 0
+python train_transh.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 7.0 --u2 8.0 --lam 2.0 --lr 0.001 --times 3000 --batch_szie 960 --dim 100 --gpu 0
 ```
 
 Complex-SS with sigmoid:
