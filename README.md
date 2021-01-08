@@ -37,26 +37,26 @@ python train_transd.py --mode SS --in_path FB15K/ --exp {Your experiment name} -
 
 TransH-SS:
 ```
-python train_transh.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 3.0 --u2 7.0 --lam 3.0 --lr 0.01 --times 3000 --batch_szie 1200 --dim 100 --gpu 0
+python train_transh.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 3.0 --u2 7.0 --lam 3.0 --lr 0.01 --times 3000 --batch_szie 1200 --dim 100 
 ```
 ```
-python train_transh.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 7.0 --u2 8.0 --lam 2.0 --lr 0.001 --times 3000 --batch_szie 960 --dim 100 --gpu 0
+python train_transh.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 7.0 --u2 8.0 --lam 2.0 --lr 0.001 --times 3000 --batch_szie 960 --dim 100 
 ```
 
 Complex-SS with sigmoid:
 ```
-python train_complex.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 0.8 --u2 0.4 --lam 1.0 --lr 0.0001 --times 600 --batch_szie 1200 --dim 200 --gpu 0
+python train_complex.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 0.8 --u2 0.4 --lam 1.0 --lr 0.0001 --times 600 --batch_szie 1200 --dim 200 --rate 10
 ```
 ```
-python train_complex.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 0.9 --u2 0.7 --lam 1.0 --lr 0.0001 --times 1000 --batch_szie 960 --dim 200 --gpu 0
+python train_complex.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 0.9 --u2 0.7 --lam 1.0 --lr 0.0001 --times 1000 --batch_szie 960 --dim 200 --rate 10
 ```
 
 Complex-SS with softmax:
 ```
-python train_complex_softmax.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 0.8 --u2 0.4 --lam 1.0 --lr 0.0001 --times 600 --batch_szie 1200 --dim 200 --gpu 0
+python train_complex_softmax.py --mode SS --in_path WN18/ --exp {Your experiment name} --u1 0.8 --u2 0.4 --lam 1.0 --lr 0.0001 --times 600 --batch_szie 1200 --dim 200 --rate 10
 ```
 ```
-python train_complex_softmax.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 0.9 --u2 0.7 --lam 1.0 --lr 0.0001 --times 1000 --batch_szie 960 --dim 200 --gpu 0
+python train_complex_softmax.py --mode SS --in_path FB15K/ --exp {Your experiment name} --u1 0.9 --u2 0.7 --lam 1.0 --lr 0.0001 --times 1000 --batch_szie 960 --dim 200 --rate 10
 ```
 
 - Training in OpenKE-DL
