@@ -1,9 +1,6 @@
-# OpenKE-PyTorch
+# OpenKE-DL
 
 An Open-source Framework for Knowledge Embedding implemented with PyTorch.
-
-More information is available on our website 
-[http://openke.thunlp.org/](http://openke.thunlp.org/)
 
 ## Overview
 
